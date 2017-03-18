@@ -1,0 +1,124 @@
+
+/* Mobile Layout: 480px and below. */
+@media only screen and (max-width: 480px) {
+input[type=radio].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:41px;
+							height:28px; 
+							display:inline-block;
+							background-repeat:no-repeat;
+							background-position: 10px 2px;
+							vertical-align:middle;
+							cursor:pointer;
+							font-weight:500 !important;
+							border:solid 1px #D5D5D5 !important;
+							padding-right:15px !important;
+							width:49%;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position:10px -22px;
+							color:#edc508 !important;
+							font-weight:500 !important;
+							border-color:#edc508 !important;
+						}
+						
+						label.css-label {
+				background-image:url(../img/radio.png);
+				font-size:12px;
+				font-weight:500 !important;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}	
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 481px) {
+input[type=radio].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:41px;
+							height:28px; 
+							display:inline-block;
+							background-repeat:no-repeat;
+							background-position: 10px 2px;
+							vertical-align:middle;
+							cursor:pointer;
+							font-weight:500 !important;
+							border:solid 1px #D5D5D5 !important;
+							padding-right:15px !important;
+							width:49%;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position:10px -22px;
+							color:#edc508 !important;
+							font-weight:500 !important;
+							border-color:#edc508 !important;
+						}
+						
+						label.css-label {
+				background-image:url(../img/radio.png);
+				font-size:12px;
+				font-weight:500 !important;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
+input[type=radio].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:41px;
+							height:28px; 
+							display:inline-block;
+							background-repeat:no-repeat;
+							background-position: 10px 2px;
+							vertical-align:middle;
+							cursor:pointer;
+							font-weight:500 !important;
+							border:solid 1px #D5D5D5 !important;
+							padding-right:15px !important;
+							width:14.9% !important;
+							margin-left:13px !important;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position:10px -22px;
+							color:#edc508 !important;
+							font-weight:500 !important;
+							border-color:#edc508 !important;
+						}
+						
+						label.css-label {
+				background-image:url(../img/radio.png);
+				font-size:12px;
+				font-weight:500 !important;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}		
+}			
+			

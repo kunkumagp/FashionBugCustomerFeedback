@@ -23,7 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = '/websites/FashionBugCustomerFeedback/';
+//$config['base_url'] = 'http://sanhindalk.com/samples/british_centre/';
+
+$config['branchCode'] = 'FBbndwlG01';
 
 /*
 |--------------------------------------------------------------------------
